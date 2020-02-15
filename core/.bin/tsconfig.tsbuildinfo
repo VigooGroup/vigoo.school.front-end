@@ -1,0 +1,64 @@
+{
+  "program": {
+    "fileInfos": {
+      "../../web/node_modules/typescript/lib/lib.d.ts": {
+        "version": "49ff9798f592c8b7e628fd881401e68810c1b3589ecd7a41b32b3c287374cde0",
+        "signature": "49ff9798f592c8b7e628fd881401e68810c1b3589ecd7a41b32b3c287374cde0"
+      },
+      "../../web/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "fc43680ad3a1a4ec8c7b8d908af1ec9ddff87845346de5f02c735c9171fa98ea",
+        "signature": "fc43680ad3a1a4ec8c7b8d908af1ec9ddff87845346de5f02c735c9171fa98ea"
+      },
+      "../../web/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "d93de5e8a7275cb9d47481410e13b3b1debb997e216490954b5d106e37e086de",
+        "signature": "d93de5e8a7275cb9d47481410e13b3b1debb997e216490954b5d106e37e086de"
+      },
+      "../../web/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+        "version": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b",
+        "signature": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b"
+      },
+      "../../web/node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9",
+        "signature": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9"
+      },
+      "../index.ts": {
+        "version": "9eca9ad6d314bc0681253c0a2db631353ffce69b5d6660ec0e8201d3e88695bc",
+        "signature": "9e17ee891ebd2543f9eea5b4984a4b9b92e0e90c51fa7ff7dc40fae180ab937c"
+      },
+      "../types/ttt.ts": {
+        "version": "ff2c60f08ffc8d0258d40e027b982faffff82042ff757dc538cc445bd60ebcd6",
+        "signature": "d488fca9db70a0fabf03d6c9a1834ef1c047354604b16d0e8d0c1f8d12ba2cdc"
+      }
+    },
+    "options": {
+      "declaration": true,
+      "target": 1,
+      "module": 1,
+      "strict": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "composite": true,
+      "sourceMap": true,
+      "esModuleInterop": true,
+      "outDir": "./",
+      "rootDir": "..",
+      "configFilePath": "../tsconfig.json",
+      "skipLibCheck": true,
+      "suppressOutputPathCheck": true
+    },
+    "referencedMap": {},
+    "exportedModulesMap": {},
+    "semanticDiagnosticsPerFile": [
+      "../../web/node_modules/typescript/lib/lib.d.ts",
+      "../../web/node_modules/typescript/lib/lib.es5.d.ts",
+      "../../web/node_modules/typescript/lib/lib.dom.d.ts",
+      "../../web/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "../../web/node_modules/typescript/lib/lib.scripthost.d.ts",
+      "../index.ts",
+      "../types/ttt.ts"
+    ]
+  },
+  "version": "3.7.5"
+}

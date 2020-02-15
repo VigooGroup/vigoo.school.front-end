@@ -1,0 +1,18 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "baseUrl": ".",
+        "outDir": ".bin",
+        "rootDir": ".",
+        "jsx": "react",
+        "paths": {
+            "sms-core/*": ["../core/*"],
+            "sms-core": ["../core"],
+        }
+    },
+    "references": [
+        {
+            "path": "../core"
+        }
+    ]
+}

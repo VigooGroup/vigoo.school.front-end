@@ -1,0 +1,23 @@
+{
+  "name": "vigoo.school.front-end",
+  "version": "1.0.0",
+  "description": "TODO:",
+  "dependencies": {
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc -b -v",
+    "clean": "tsc -b --clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VigooGroup/vigoo.school.front-end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VigooGroup/vigoo.school.front-end/issues"
+  },
+  "homepage": "https://github.com/VigooGroup/vigoo.school.front-end#readme"
+}
