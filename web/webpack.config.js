@@ -2,9 +2,9 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    entry: './app.tsx',
+    entry: './index.tsx',
     output: {
-        path: path.join(__dirname, '/dist'),
+        path: path.join(__dirname, '/.bin'),
         filename: 'bundle.js',
     },
     module: {
@@ -21,10 +21,14 @@ module.exports = {
         ],
     },
     resolve: {
-        extensions: ['.tsx', '.ts', '.js'],
         alias: {
             'sms-core': path.resolve(__dirname, '../core/'),
-        }
+        },
+        extensions: ['.tsx', '.ts', '.js'],
+        modules: [
+            path.resolve('.'),
+            path.resolve('./node_modules')
+        ]
     },
     plugins: [
         new HtmlWebpackPlugin({
