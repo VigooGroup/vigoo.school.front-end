@@ -1,1 +1,7 @@
-export const ApplicationName123 = "Andrew";
+function buildHttModule({ http }) {
+    return function createHttp() {
+        return {
+
+        };
+    }
+}

@@ -6,7 +6,7 @@ import { Redirect as RedirectType, Route, UiRouteProps } from "./types";
 export const UiView: React.FC<UiRouteProps> = (props) => {
     const routes = props.routes.filter(e => (e as Route).component) as Route[]
     const redirects = props.routes.filter(e => !(e as Route).component) as RedirectType[]
-    
+
     return (
         <Switch>
             {routes.map(route => {
@@ -14,7 +14,7 @@ export const UiView: React.FC<UiRouteProps> = (props) => {
                     <ReactRoute exact={route.exact} key={route.path}
                         path={route.path}
                         render={(props: any) => {
-                            
+
                             return <route.component {...props} routes={route.children || []} />
                         }}
                     />

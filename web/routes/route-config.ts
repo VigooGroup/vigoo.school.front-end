@@ -1,7 +1,8 @@
-import { NotFoundPage, SignInPage } from "app";
+import { NotFoundPage } from "app/notfound/notfound-page";
+import { SignInPage } from "app/signin/signin-page";
 import { SignUpPage } from "app/signup/signup-page";
 import { RouteConfig } from "common/routing/types";
-import { getHomeRoute, getNotFoundRoute, getSignUpRoute } from "./routes";
+import { getHomeRoute, getNotFoundRoute, getSignUpRoute } from "./paths";
 
 const notFoundPath = getNotFoundRoute();
 
@@ -23,6 +24,6 @@ export const appRoutes: RouteConfig[] = [
     {
         to: notFoundPath,
     }
-]
-debugger
+];
+
 export default appRoutes;

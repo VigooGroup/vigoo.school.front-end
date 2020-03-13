@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { getSignUpRoute } from "routes";
+import { getSignUpRoute } from "routes/paths";
 
 export function SignInPage() {
     return (
